@@ -7,3 +7,56 @@
 .headerPrincipal-nav {
     display: flex;
 }
+.rodapePrincipal-patrocinadores .container {
+    display:flex;
+    justify-content: space-between;
+}
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5%;
+}
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    flex-wrap: wrap;
+}
+.contenidoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenidoPrincipal-cursos-link {
+    display: flex;
+    width: 23%;
+}
+.grid .box {
+    text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	width: 31.1%;
+    height: 20px;
+	background-color: #FFF;
+	text-align: center;
+    text-align: ;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.course {
+  width: 31.3%;
+  margin: 1%;
+}
